@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="conteudo">
+            <h1 id="title">Tarefas para hoje</h1>
+            <div id="todo">
+                <input id="task" type="text" placeholder="Escreva aqui sua tarefa" style="text-align: center">
+                <button id="botao" onclick="tarefa.listar()">Listar</button>
+
+            </div>
+            <div id="conteudoLista">
+                <table>
+                    <thead>
+                        <th>Tarefa</th>
+                        <th>Ação</th>
+                    </thead>
+                    <tbody id="corpoTabela">
+                        <!-- <tr>
+                            <td>Comer maçã</td>
+                            <td>
+                                <img src="./images/botao-editar.png" alt="editar">
+
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
